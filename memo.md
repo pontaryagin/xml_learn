@@ -7,7 +7,14 @@ dotnet tool install --global dotnet-xscgen
 ## generate cs class
 xscgen sample.xsd
 
-# C++ xml generate
+## run
+dotnet run 
 
+# C++ xml generate
+## run
+```
+cd c++
+make
+```
 
 

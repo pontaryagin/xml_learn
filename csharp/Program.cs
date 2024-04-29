@@ -13,10 +13,11 @@ SampleNs.NoteType note = new SampleNs.NoteType{
     Body = "Don't forget me this weekend!"
 };
 
-TextReader reader = new StreamReader("sample.xml");
+var filename = args[0];
+TextReader reader = new StreamReader(filename);
 note = (SampleNs.NoteType)serializer.Deserialize(reader);
 
-TextWriter writer = new StreamWriter("sample_xscgen_out.xml");
+TextWriter writer = new StreamWriter("temp_sample_xscgen_out.xml");
 serializer.Serialize(writer, note);
 Console.WriteLine(note.Body);
 

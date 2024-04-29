@@ -1,4 +1,6 @@
 .mono
 *.o
 obj/
+bin/
 main_xsd
+temp_sample_xscgen_out.xml
