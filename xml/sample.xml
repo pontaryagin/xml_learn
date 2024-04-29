@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<note
+    xmlns="sample_ns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="sample_ns sample.xsd"
+    >
+    <to>Tove1</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>

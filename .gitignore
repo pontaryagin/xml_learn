@@ -1,0 +1,4 @@
+.mono
+*.o
+obj/
+main_xsd

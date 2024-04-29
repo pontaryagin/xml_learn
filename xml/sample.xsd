@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="sample_ns"
+  xmlns="sample_ns"
+  elementFormDefault="qualified"
+  attributeFormDefault="qualified"
+>
+  <xs:include
+    schemaLocation="noteType.xsd" />
+  <xs:element name="note" type="noteType" />
+
+</xs:schema>
